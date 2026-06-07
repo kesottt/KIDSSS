@@ -1320,30 +1320,22 @@ body {
           animation-play-state: paused !important;
 }
 .pesan{
-    position: absolute;
-    top: 15%;
+    position: fixed;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: white;
-    z-index: 999;
-    animation: fadeIn 5s ease;
+    z-index: 99999;
+    width: 100%;
 }
 
 .pesan h1{
     font-size: 3rem;
-    margin-bottom: 10px;
+    text-shadow: 0 0 10px #fff;
 }
 
 .pesan p{
     font-size: 1.3rem;
-}
-
-@keyframes fadeIn{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
+    text-shadow: 0 0 10px #fff;
 }

@@ -1319,3 +1319,31 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }
+.pesan{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    z-index: 999;
+    animation: fadeIn 5s ease;
+}
+
+.pesan h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.pesan p{
+    font-size: 1.3rem;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
